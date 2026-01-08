@@ -1,4 +1,4 @@
-# HR Management System – Java Swing
+# HR Management System – (Java + GUI)
 
 This project is a desktop-based HR Management System developed in Java using the Swing framework. The application provides an interactive graphical interface to manage employees while applying fundamental Data Structures and Algorithms concepts in a practical way.
 
