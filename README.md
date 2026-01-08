@@ -25,3 +25,36 @@ This HR Management System is a Java-based desktop application designed to automa
 ---
 
 ## 📂 Project Structure
+
+---
+
+## ▶️ How to Run the Project
+1. Clone the repository:
+2. Open the project in any Java IDE (IntelliJ IDEA / Eclipse / NetBeans)
+3. Compile and run the main file
+4. The GUI window will open automatically
+
+---
+
+## 📸 Screenshots
+(Add screenshots of your application interface here)
+
+---
+
+## 🎯 Learning Outcomes
+- Understanding of Java Swing GUI
+- Implementation of Object-Oriented Programming
+- Working with Date and Time in Java
+- Building real-world management systems
+- Practical experience with GitHub repositories
+
+---
+
+## 👩‍💻 Author
+**Fatima Safi**  
+Software Engineering Student  
+
+---
+
+## 📄 License
+This project is created for educational purposes.
