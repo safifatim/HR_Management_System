@@ -1,81 +1,82 @@
-# HR Management System – (Java + GUI)
+# HR Management System – Java Swing
 
-This project is a desktop-based HR Management System developed in Java using the Swing framework. The application provides an interactive graphical interface to manage employees while applying fundamental Data Structures and Algorithms concepts in a practical way.
+This project is a Java-based HR Management System developed using Java Swing. It provides a graphical user interface to manage employee records while demonstrating core Object-Oriented Programming and Data Structures concepts.
 
 ---
 
-## 📘 System Description
-The application is designed to assist an organization in handling essential HR operations through a GUI-based system. It allows users to store, organize, and process employee information efficiently while ensuring better understanding of algorithmic logic.
+## 📘 Project Overview
+The system is designed to perform basic human resource management tasks in an organized and efficient manner. It allows users to manage employee data, track attendance, and calculate salaries through a user-friendly GUI.
 
-The system supports:
+The application supports:
 - Employee registration and record management
 - Automatic sorting of employee data
-- Fast searching of employee records
+- Efficient searching of employee records
 - Attendance tracking (entry and exit time)
-- Salary computation based on working hours
+- Salary calculation based on working hours
 
 ---
 
-## 🧱 Core Modules
+## 🧱 System Modules
 
-### 1. Employee Data Model
-- Stores employee details such as:
+### 1. Employee Class
+- Stores employee information:
   - Employee Name
   - Employee ID
   - Entry Time
   - Exit Time
-- Acts as the central data structure for all HR operations
+- Acts as the main data model of the system
 
 ---
 
-### 2. Employee Sorting (Insertion Sort)
-- Employees are arranged in ascending order of Employee ID
-- Insertion Sort is used to maintain order
-- Sorting is triggered automatically after adding a new employee
-- Each sorting step is visualized using GUI dialog boxes
+### 2. Sorting Module (Selection Sort)
+- Employees are sorted based on Employee ID
+- Selection Sort algorithm is used
+- Sorting is performed after employee registration
+- Sorted employee data is displayed through the GUI
 
-**Why Insertion Sort?**
-- Easy to implement and understand
-- Efficient for small data sets
-- Commonly used for academic learning
+**Why Selection Sort?**
+- Simple and easy to implement
+- Suitable for small datasets
+- Commonly taught in academic courses
+- Helps in understanding basic comparison-based sorting
 
 ---
 
-### 3. Employee Search (Binary Search)
-- Employee records are located using Binary Search
-- Requires the employee list to be sorted
-- Provides faster search performance
-- Used during:
-  - Attendance marking
-  - Exit time recording
+### 3. Searching Module (Binary Search)
+- Employee records are searched using Binary Search
+- Binary Search operates on sorted employee data
+- Provides faster search compared to linear search
+- Used for:
+  - Recording entry time
+  - Recording exit time
   - Salary calculation
 
 ---
 
-### 4. Interview Handling Module
+### 4. Interview Module
 - Displays predefined interview questions
-- Implemented using a scrollable Swing window
-- Simulates a basic interview environment
+- Implemented using a scrollable Java Swing window
+- Simulates a basic interview process
 
 ---
 
-### 5. Attendance Tracking
+### 5. Attendance Management
 - Entry and exit times are recorded automatically
 - System time is captured using Java Time API
-- Ensures accurate attendance records
+- Ensures accurate attendance tracking
 
 ---
 
-### 6. Salary Processing
-- Salary is computed using:
+### 6. Salary Calculation
+- Salary is calculated using:
   - Entry time
   - Exit time
-  - Fixed hourly wage
-- Total working hours are calculated using time difference logic
+  - Fixed hourly rate
+- Working hours are computed using time difference logic
 
 ---
 
-## 🛠️ Tools and Technologies
+## 🛠️ Technologies Used
 - Java
 - Java Swing
 - Java AWT
@@ -83,27 +84,27 @@ The system supports:
 
 ---
 
-## 🎓 Learning Objectives
-- Practical implementation of Insertion Sort
+## 🎓 Learning Outcomes
+- Implementation of Selection Sort algorithm
 - Efficient searching using Binary Search
-- Strong understanding of OOP principles
-- Hands-on experience with Java Swing GUI
-- Working with real-time date and time in Java
+- Practical use of Object-Oriented Programming
+- GUI development using Java Swing
+- Handling date and time in Java applications
 
 ---
 
-## ▶️ Execution Steps
+## ▶️ How to Run the Project
 1. Open the project in any Java IDE (IntelliJ IDEA, Eclipse, or NetBeans)
 2. Run the `HR_Management_System.java` file
-3. Use the GUI buttons to interact with the system
+3. Use the GUI buttons to perform HR operations
 
 ---
 
 ## 👩‍💻 Developer
-Fatima Safi  
+Fatima   
 Software Engineering Student
 
 ---
 
-## 📄 Note
-This project is developed for academic and learning purposes.
+## 📄 Disclaimer
+This project is developed for academic and learning purposes only.
